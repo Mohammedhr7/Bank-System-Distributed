@@ -313,7 +313,7 @@ bankManagementSystem-main/
 
 ## 📂 Database Files (`sql/`)
 
-### 🗄️ **ATM_Simulator.sql**
+### 🗄️ **bank_management_system.sql**
 **Purpose:** SQL script to create database schema and tables.
 
 **Creates:**
@@ -484,7 +484,7 @@ Can be changed in `Conn.java` connection URL.
 
 1. **Setup Database:**
    ```bash
-   mysql -u root -p < sql/ATM_Simulator.sql
+   mysql -u root -p < sql/bank_management_system.sql
    ```
 
 2. **Configure Connection:**

@@ -22,7 +22,7 @@ The inspiration for this ATM Simulator project stems from the basic need of havi
 **For Linux/Mac/Git Bash (Windows):**
 ```bash
 # 1. Setup database
-mysql -u root -p < sql/ATM_Simulator.sql
+mysql -u root -p < sql/bank_management_system.sql
 
 # 2. Configure database connection
 # Edit src/atm/simulator/system/Conn.java and update username/password
@@ -34,7 +34,7 @@ make run
 **For Windows (Using Batch Script):**
 ```bash
 # 1. Setup database in MySQL Workbench
-# Run sql/ATM_Simulator.sql
+# Run sql/bank_management_system.sql
 
 # 2. Configure database connection
 # Edit src\atm\simulator\system\Conn.java
@@ -53,7 +53,7 @@ compile_and_run.bat
 
 2. **Setup MySQL Database**
    - Open MySQL Workbench or MySQL command line
-   - Run the SQL script: `sql/ATM_Simulator.sql`
+   - Run the SQL script: `sql/bank_management_system.sql`
    - This creates the database `bank_management_system` and all required tables
 
 3. **Configure Database Connection**

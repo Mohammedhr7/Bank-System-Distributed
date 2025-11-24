@@ -119,7 +119,7 @@ setup:
 	@echo ""
 	@echo "$(YELLOW)2. Database Setup:$(NC)"
 	@echo "   - Open MySQL Workbench or MySQL command line"
-	@echo "   - Run the SQL script: sql/ATM_Simulator.sql"
+	@echo "   - Run the SQL script: sql/bank_management_system.sql"
 	@echo "   - This will create the database and required tables"
 	@echo ""
 	@echo "$(YELLOW)3. Configure Database Connection:$(NC)"

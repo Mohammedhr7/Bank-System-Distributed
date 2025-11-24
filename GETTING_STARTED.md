@@ -15,11 +15,11 @@ mysql --version
 ### Step 2: Database Setup
 ```bash
 # Option A: Using MySQL command line
-mysql -u root -p < sql/ATM_Simulator.sql
+mysql -u root -p < sql/bank_management_system.sql
 
 # Option B: Using MySQL Workbench
 # 1. Open MySQL Workbench
-# 2. File → Open SQL Script → Select sql/ATM_Simulator.sql
+# 2. File → Open SQL Script → Select sql/bank_management_system.sql
 # 3. Click Execute (⚡ icon)
 ```
 
